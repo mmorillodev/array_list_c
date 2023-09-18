@@ -2,7 +2,7 @@
 #define ARRAY_LIST_H
 
 typedef struct {
-  int *arr;
+  int *pArr;
   int len;
   int capacity;
 } ArrayList;
